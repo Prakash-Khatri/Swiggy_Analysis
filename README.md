@@ -1,7 +1,7 @@
 ![MasterHead](https://cdn.dribbble.com/users/1197989/screenshots/5585685/media/139eef797b4034c31cd8189a717c2022.gif)
 
-# Swiggy_Analysis
-Swiggy Anaysis (bangalore) based on Data Scrapped from website.
+<h1, align="center">Swiggy Analysis Project<h1>
+ Swiggy Anaysis (bangalore) based on Data Scrapped from website.
 # Introduction
 Data in today's time is a relevent thing, because the more data is aquired the more analysis can be done on it. That is why companies are engaging themselves in collection of data at each step. Such data can be in large amount and is not easily manageable, to manage that data companies requires data scientiests. Such a large amount of data is called "Big Data". And the person who analyse the data are Data Analysts. One of such process can be seen in this project, where we (as a team) share the code for Data Extraction from "www.swiggy.com/" , from it's website wherein I Extracted the data from it's Bangalore Domain, and on the basis of data we did some Exploratory data analysis for valuable insights.
 ## _Steps involved in process:_
