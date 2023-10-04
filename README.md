@@ -1,22 +1,37 @@
 ![MasterHead](https://cdn.dribbble.com/users/1197989/screenshots/5585685/media/139eef797b4034c31cd8189a717c2022.gif)
 
-<h1, align="center">Swiggy Analysis Project<h1>
- Swiggy Anaysis (bangalore) based on Data Scrapped from website.
-# Introduction
-Data in today's time is a relevent thing, because the more data is aquired the more analysis can be done on it. That is why companies are engaging themselves in collection of data at each step. Such data can be in large amount and is not easily manageable, to manage that data companies requires data scientiests. Such a large amount of data is called "Big Data". And the person who analyse the data are Data Analysts. One of such process can be seen in this project, where we (as a team) share the code for Data Extraction from "www.swiggy.com/" , from it's website wherein I Extracted the data from it's Bangalore Domain, and on the basis of data we did some Exploratory data analysis for valuable insights.
-## _Steps involved in process:_
-- Data Extraction using Python Libraries
-- Data cleaning 
-- Data Exploring
-- Data Presenting
-- Data Analysis
+# Swiggy Analysis Project
+Swiggy Anaysis (bangalore) based on Data Scrapped from website.
 
-Data extraction from swiggy website can be easily done using pthon libraries like requests and Beautifulsoup like most of the websites, however swiggy uses a dynamic website wherein we it does not uses web page no. for easily iterating over pages for data, instead here we have to scroll down to the end of the page to get more data. So libraries like pyshadow and selenium comes in handy at this part. Using BeautifulSoup, selenium and pyshadow we was able to extract the data into html format, then we used library "html_to_jason" to convert the html data to jason file, which acted as an bridge between python and html format. Then using pandas and numpy libraries we was able to create two data frames one had data for restaurants and other have data for food delivery, then using pandas we dropped any duplicates and checked for null values. lastly we converted it to an excel file format.
+---
 
-After creating an Excel file we imprted both of the file into power querry and performed data cleaning
+## Aim of the project 🎯:
 
-After data cleaning we studied the data to find the possible insights and clues that might help for a business decision.
+The aim of this project is to empower aspiring entrepreneurs in the food industry by leveraging data analysis techniques on Swiggy's extensive dataset. By analyzing Swiggy's data, the project seeks to provide valuable insights and actionable recommendations for individuals looking to start their own restaurant business. This endeavor aims to democratize information, allowing entrepreneurs to make informed decisions, optimize their strategies, and increase their chances of success in the competitive restaurant market.
 
-we did data visualisation using multiple charts by taking various insights.
+---
 
+## Project Description 📃:
+In this project, we delve into the world of food delivery with Swiggy, one of the leading platforms in the industry. Our project is geared towards extracting valuable insights from Swiggy's vast dataset, employing a multi-faceted approach that combines the power of Python libraries, Excel, and Power Query.
 
+Project Phases:
+
+- Data Extraction using Python Libraries:
+  - Utilized Python libraries such as Pandas and Requests to extract raw data from Swiggy's servers.
+  - Implemented web scraping techniques to collect real-time data on restaurant listings, customer reviews, and menu items, ensuring a comprehensive dataset for analysis.
+
+- Data Cleaning and Transformation using Power Query:
+  - Imported the extracted data into Excel and use Power Query to clean, transform, and structure the dataset.
+  - Addressed missing values, standardize formats, and remove duplicates to ensure data accuracy and consistency.
+  - Leveraged Power Query's intuitive interface to streamline the cleaning process and prepare the data for in-depth analysis.
+
+- Data Analytics using Excel:
+  - Employed advanced Excel functions and statistical analysis tools to derive meaningful insights from the cleaned dataset.
+  - Performed descriptive analytics to identify popular cuisines, customer preferences, peak ordering hours, and regional trends.
+  - Utilized pivot tables and charts to visualize data patterns, aiding in the identification of key market trends and opportunities.
+
+---
+
+# _Steps involved in process:_
+
+## 1. Web Scrapping
