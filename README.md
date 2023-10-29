@@ -80,3 +80,7 @@ In the data cleaning phase, Power Query was utilized to refine the extracted dat
 The analysis of low-rated restaurants in specific areas on Swiggy's platform has revealed a compelling investment insight: targeting areas with a high concentration of low-rated cuisines presents a unique business opportunity. In these regions, there is a clear demand for quality food and prompt delivery services. Investors seeking to enter the food industry could strategically focus on these areas, capitalizing on the gap in customer satisfaction. By establishing a restaurant or food delivery service that prioritizes exceptional food quality and timely deliveries, there is a significant potential to capture market share and gain customer loyalty. The existing dissatisfaction among customers in these areas signifies an untapped market eager for improved dining experiences.
 ![image](https://github.com/Prakash-Khatri/Swiggy_Analysis/assets/133597202/7b2c1337-98e0-4a40-a768-3318dc3bf0a2)
 
+---
+
+# Conclusion
+
